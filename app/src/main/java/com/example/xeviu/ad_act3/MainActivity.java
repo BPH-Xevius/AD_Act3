@@ -17,21 +17,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        /*dbAdapter = new MyDBAdapter(this);
-        dbAdapter.open();
-        dbAdapter.insertarEstudiante("Pepe",22, "DAM", "2a",2.5);
-        dbAdapter.insertarEstudiante("Andres",25, "DAM", "2a",8.5);
-        dbAdapter.insertarProfesor("Juan",25, "DAM", "2a","2.2.3");
-        dbAdapter.insertarProfesor("Miguel",25, "DAM", "2a","2.3.6");
-
-        TextView textView = (TextView) this.findViewById(R.id.textView);
-        TextView textView3 = (TextView) this.findViewById(R.id.textView3);
-
-        ArrayList<String> estudiantes = dbAdapter.recuperarEstudiantes();
-        textView.setText(estudiantes.get(0));
-        textView3.setText(estudiantes.get(1));*/
-
     }
 
 
