@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AD_Act3</string>
+    <string name="btn_pref">Preferencias</string>
+    <string name="btn_estud">Estudiantes</string>
+    <string name="btn_prof">Profesores</string>
+    <string name="btn_estud_test">Insertar Alumnos de prueba</string>
+    <string name="btn_estud_cons">Ver Alumnos</string>
+    <string name="btn_prof_test">Insertar Profesores de prueba</string>
+    <string name="btn_prof_cons">Ver Profesores</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="Nombre"
+        android:title="Nombre"
+        android:summary="Su nombre"
+        android:dialogTitle="Introduzca su nombre real"
+        ></EditTextPreference>
+
+    <EditTextPreference
+        android:key="pref_user"
+        android:title="Nombre de Usuario"
+        android:summary="Su nombre de usuario"
+        android:dialogTitle="Introduzca su nombre de usuario"
+        ></EditTextPreference>
+
+    <EditTextPreference
+        android:key="pref_bdate"
+        android:title="Fecha de Nacicimiento"
+        android:summary="Su Fecha de Nacicimiento"
+        android:dialogTitle="Introduzca su Fecha de Nacicimiento(DD/MM/AAAA)"
+        ></EditTextPreference>
+
+    <ListPreference
+        android:key="pref_gen"
+        android:title="Genero"
+        android:summary="Seleccione su genero"
+        android:entries="@array/generos"
+        android:entryValues="@array/generos_val"
+        ></ListPreference>
+
+</PreferenceScreen>
